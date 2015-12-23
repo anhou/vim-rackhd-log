@@ -1,6 +1,7 @@
 if exists('b:current_syntax') | finish |  endif
 
 " Matching logging level's line
+" NOTE: the make keys need to be updated in need
 syntax match EmergKey       /^E\s\d\{4}-\d\{2}-\d\{2}T\d\{2}:\d\{2}:\d\{2}.\d\{3}Z\s.\+/
 syntax match AlertKey       /^A\s\d\{4}-\d\{2}-\d\{2}T\d\{2}:\d\{2}:\d\{2}.\d\{3}Z\s.\+/
 syntax match CritKey        /^C\s\d\{4}-\d\{2}-\d\{2}T\d\{2}:\d\{2}:\d\{2}.\d\{3}Z\s.\+/
